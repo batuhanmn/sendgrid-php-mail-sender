@@ -7,7 +7,7 @@ else
 	echo "test mode\n";
 
 	
-$oku = fopen("mails/mail0.txt",'r'); 
+$oku = fopen("mails/mails0.txt",'r'); 
 while(!feof($oku)){  
 	$email = fgets($oku);
 	$email = trim($email);
